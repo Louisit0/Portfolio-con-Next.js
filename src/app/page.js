@@ -1,13 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
-import imgPoke from "../../public/pokedex.png";
-import Nav from "./components/Nav";
+import Content from "./components/Content";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <main>
-      <Nav />
-      <h2>Hello world</h2>
-    </main>
+    <div className="lg:flex lg:justify-between lg:gap-4">
+      <Header />
+      <Content />
+    </div>
   );
 }
