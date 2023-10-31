@@ -1,16 +1,17 @@
 import "../styles/globals.css";
-import Head from "next/head";
-import Home from "./page";
+import { Inter } from "next/font/google";
 
-export default function RootLayout() {
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "Portfolio - Luis Ramirez",
+  description: "Portfolio",
+};
+
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <title>Luis Ramirez</title>
-      </Head>
-      <body>
-        <Home />
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
