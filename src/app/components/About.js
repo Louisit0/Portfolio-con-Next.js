@@ -1,7 +1,7 @@
 import Image from "next/image";
-import avatar from "../../assets/avatarluigi.jpeg";
+import avatar from "../assets/avatarluigi.jpeg";
 
-const About = () => {
+const About = ({ data }) => {
   return (
     <div className="flex flex-col justify-center gap-4 bg-zinc-800 border-white rounded-3xl p-10 h-72">
       <Image
