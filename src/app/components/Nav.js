@@ -1,14 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const Nav = () => {
-  const [tabs, setTabs] = useState("home");
-
-  const changeTabs = (tabName) => {
-    setTabs(tabName);
-    console.log(tabName);
-  };
-
+const Nav = ({ tabs, changeTabs }) => {
   return (
     <nav className="flex flex-row justify-between py-10 text-slate-200">
       <h1 className="text-3xl font-bold">Luis</h1>
