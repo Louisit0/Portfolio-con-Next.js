@@ -25,16 +25,14 @@ export default function Home() {
         {tabs === "home" ? (
           <>
             <About />
-            <Contact />
             <Stack />
+            <Contact />
             <Projects />
           </>
         ) : tabs === "projects" ? (
           <Projects />
         ) : tabs === "about" ? (
           <>
-            <About />
-            <Stack />
             <About />
           </>
         ) : tabs === "contact" ? (
