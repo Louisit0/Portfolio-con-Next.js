@@ -18,7 +18,7 @@ const Contact = () => {
           width="75.121"
           height="61.052"
           viewBox="0 0 75.121 61.052"
-          class="mx-auto fill-sky-400"
+          className="mx-auto fill-sky-400"
         >
           <path
             id="icons8-twitter"
@@ -33,7 +33,7 @@ const Contact = () => {
           width="75.121"
           height="61.052"
           viewBox="0 0 75.121 61.052"
-          class="mx-auto fill-sky-400"
+          className="mx-auto fill-sky-400"
         >
           <path
             id="icons8-twitter"
