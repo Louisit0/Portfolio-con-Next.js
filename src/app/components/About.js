@@ -1,15 +1,27 @@
 import Image from "next/image";
-import ABOUT_DATA from "../utilities/AboutData";
+import { avatar } from "../assets/Images";
 
 const About = () => {
   return (
     <>
-      {ABOUT_DATA.map((about) => (
+      <section className="flex flex-col justify-evenly h-full">
+        <Image
+          className="flex flex-col justify-center object-cover w-24 h-24 rounded-full"
+          src={avatar}
+          alt="avatar"
+        ></Image>
+        <p>
+          Hi, i'm Luis a developer and product designer from Ireland. I'm
+          interested in React, Node, Product Design, Jamstack, Startups,
+          Cryptocurrencies and Music.
+        </p>
+      </section>
+      {/* {ABOUT_DATA.map((about) => (
         <section
           key={about.id}
           className={` ${
             about.id === 1 ? "p-10" : "p-0"
-          } rounded-3xl h-72 bg-zinc-800`}
+          } rounded-3xl h-72 bg-zinc-800 col-span-2`}
         >
           {about.img ? (
             <Image
@@ -38,7 +50,7 @@ const About = () => {
           ) : null}
           <p>{about.description}</p>
         </section>
-      ))}
+      ))} */}
     </>
   );
 };
