@@ -4,16 +4,16 @@ import { avatar } from "../assets/Images";
 const About = () => {
   return (
     <>
-      <section className="flex flex-col justify-evenly h-full">
+      <section className="flex flex-col justify-evenly h-full gap-4">
         <Image
           className="flex flex-col justify-center object-cover w-24 h-24 rounded-full"
           src={avatar}
           alt="avatar"
         ></Image>
+        <h2 className="text-4xl font-bold">Frontend React Developer</h2>
         <p>
-          Hi, i'm Luis a developer and product designer from Ireland. I'm
-          interested in React, Node, Product Design, Jamstack, Startups,
-          Cryptocurrencies and Music.
+          Hi, I'm Luis Ramirez. A passionate Frontend Developer based in Buenos
+          Aires, Argentina. 📍
         </p>
       </section>
       {/* {ABOUT_DATA.map((about) => (
