@@ -1,20 +1,33 @@
 import Image from "next/image";
-import { avatar } from "../assets/Images";
+import { setup } from "../assets/Images";
 
 const About = () => {
   return (
     <>
-      <section className="flex flex-col justify-evenly h-full gap-4">
+      <section className="flex flex-row justify-evenly h-full gap-20 py-20 ">
         <Image
-          className="flex flex-col justify-center object-cover w-24 h-24 rounded-full"
-          src={avatar}
-          alt="avatar"
+          className="flex flex-col justify-center object-cover rounded-2xl"
+          width={410}
+          height={350}
+          src={setup}
+          alt="setup"
         ></Image>
-        <h2 className="text-4xl font-bold">Frontend React Developer</h2>
-        <p>
-          Hi, I'm Luis Ramirez. A passionate Frontend Developer based in Buenos
-          Aires, Argentina. 📍
-        </p>
+        <div className="">
+          <h3 className="text-blue-500 font-bold uppercase">About me</h3>
+          <h4 className="text-2xl font-bold my-2 text-stone-800">
+            A dedicated Front-end Developer based in Buenos Aires, Argentina 📍
+          </h4>
+          <p className="text-zinc-500">
+            As a Junior Front-End Developer, I possess an impressive arsenal of
+            skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
+            in designing and maintaining responsive websites that offer a smooth
+            user experience. My expertise lies in crafting dynamic, engaging
+            interfaces through writing clean and optimized code and utilizing
+            cutting-edge development tools and techniques. I am also a team
+            player who thrives in collaborating with cross-functional teams to
+            produce outstanding web applications.
+          </p>
+        </div>
       </section>
       {/* {ABOUT_DATA.map((about) => (
         <section
