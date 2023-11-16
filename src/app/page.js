@@ -37,6 +37,7 @@ export default function Home() {
     <div>
       <HomePage />
       <About />
+      <Projects />
     </div>
   );
 }

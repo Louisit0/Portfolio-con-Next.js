@@ -48,25 +48,28 @@ const HomePage = () => {
       </div>
       <div className="flex flex-wrap items-center mt-28">
         <p className="font-bold">
-          Tech stack <span className="text-gray-500 ml-4 mr-16">|</span>
+          Tech Stack <span className="text-stone-800 ml-4 mr-16">|</span>
         </p>
         <ul className="flex flex-row gap-8">
-          <li>
+          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
-              <img src="https://skillicons.dev/icons?i=html,css" />
+              <img
+                className="ease-in-out duration-300"
+                src="https://skillicons.dev/icons?i=html,css"
+              />
             </a>
           </li>
-          <li>
+          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
               <img src="https://skillicons.dev/icons?i=javascript,typescript" />
             </a>
           </li>
-          <li>
+          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
               <img src="https://skillicons.dev/icons?i=react,next" />
             </a>
           </li>
-          <li>
+          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
               <img src="https://skillicons.dev/icons?i=tailwind,net" />
             </a>
