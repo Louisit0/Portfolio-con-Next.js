@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+    <footer className="max-w-md pb-16 text-sm bg-zinc-800 absolute w-full text-slate-500 sm:pb-0">
       <p>
         Loosely designed in{" "}
         <a

@@ -3,14 +3,14 @@ import PROJECTS_DATA from "@/app/utilities/ProjectsData";
 
 const Projects = () => {
   return (
-    <section className="rounded-3xl h-96">
+    <section className="rounded-3xl">
       <p className="text-blue-500 font-bold uppercase">Projects</p>
       <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
         Each project is a unique piece of development 🧩
       </h3>
       {PROJECTS_DATA.map((project) => (
         <div
-          key={project.key}
+          key={project.id}
           className={`p-6 border shadow-sm rounded-3xl bg-white mb-14 ${
             project.id % 2 !== 0 ? "flex flex-row" : "flex flex-row-reverse"
           } `}
