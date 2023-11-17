@@ -44,6 +44,7 @@ const HomePage = () => {
         <Image
           src={avatar}
           className="w-80 h-80 object-cover rounded-full"
+          alt="avatar"
         ></Image>
       </div>
       <div className="flex flex-wrap items-center mt-28">

@@ -2,23 +2,12 @@
 import { useState } from "react";
 import Nav from "./components/Nav";
 import Contact from "./components/Contact";
-import PROJECTS_DATA from "@/app/utilities/ProjectsData";
 
 //Components
 import About from "./components/About";
-import Stack from "./components/Stack";
 import Projects from "./components/Projects";
 import HomePage from "./components/HomePage";
-import {
-  setup,
-  mendoza,
-  pcgear,
-  turisme,
-  pokedex,
-  pcgear2,
-  proyectos,
-  github,
-} from "./assets/Images";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [tabs, setTabs] = useState("home");
@@ -38,6 +27,8 @@ export default function Home() {
       <HomePage />
       <About />
       <Projects />
+      <Contact />
+      {/* <Footer /> */}
     </div>
   );
 }
