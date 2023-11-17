@@ -1,47 +1,55 @@
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-col justify-center gap-4 bg-zinc-800 border-white rounded-3xl p-10 h-72 ">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="h-24 w-24 mx-auto fill-blue-500"
-          aria-hidden="true"
-        >
-          <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
-        </svg>
-      </div>
-      <div className="flex flex-col justify-center gap-4 bg-zinc-800 border-white rounded-3xl p-10 h-72 ">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="75.121"
-          height="61.052"
-          viewBox="0 0 75.121 61.052"
-          className="mx-auto fill-sky-400"
-        >
-          <path
-            id="icons8-twitter"
-            d="M75.063,12.844a30.83,30.83,0,0,1-8.858,2.43A15.451,15.451,0,0,0,72.984,6.75,30.947,30.947,0,0,1,63.2,10.485,15.418,15.418,0,0,0,36.937,24.542,43.765,43.765,0,0,1,5.17,8.441,15.445,15.445,0,0,0,9.94,29.019a15.4,15.4,0,0,1-6.984-1.932v.193A15.438,15.438,0,0,0,15.317,42.4a15.421,15.421,0,0,1-4.057.538,14.847,14.847,0,0,1-2.9-.28,15.447,15.447,0,0,0,14.4,10.709,30.9,30.9,0,0,1-19.14,6.595,30.3,30.3,0,0,1-3.671-.217A43.544,43.544,0,0,0,23.56,66.666c28.348,0,43.852-23.483,43.852-43.846,0-.667-.018-1.341-.04-2a31.325,31.325,0,0,0,7.692-7.98Z"
-            transform="translate(0.058 -5.614)"
-          ></path>
-        </svg>
-      </div>
-      <div className="flex flex-col justify-center gap-4 bg-zinc-800 border-white rounded-3xl p-10 h-72 ">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="75.121"
-          height="61.052"
-          viewBox="0 0 75.121 61.052"
-          className="mx-auto fill-sky-400"
-        >
-          <path
-            id="icons8-twitter"
-            d="M75.063,12.844a30.83,30.83,0,0,1-8.858,2.43A15.451,15.451,0,0,0,72.984,6.75,30.947,30.947,0,0,1,63.2,10.485,15.418,15.418,0,0,0,36.937,24.542,43.765,43.765,0,0,1,5.17,8.441,15.445,15.445,0,0,0,9.94,29.019a15.4,15.4,0,0,1-6.984-1.932v.193A15.438,15.438,0,0,0,15.317,42.4a15.421,15.421,0,0,1-4.057.538,14.847,14.847,0,0,1-2.9-.28,15.447,15.447,0,0,0,14.4,10.709,30.9,30.9,0,0,1-19.14,6.595,30.3,30.3,0,0,1-3.671-.217A43.544,43.544,0,0,0,23.56,66.666c28.348,0,43.852-23.483,43.852-43.846,0-.667-.018-1.341-.04-2a31.325,31.325,0,0,0,7.692-7.98Z"
-            transform="translate(0.058 -5.614)"
-          ></path>
-        </svg>
-      </div>
+      <section className="flex flex-col py-20">
+        <p className="text-blue-500 font-bold uppercase">Contact</p>
+        <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
+          Don't be shy! Hit me up! 👇
+        </h3>
+        <div className="flex flex-row gap-20">
+          <div className="flex flex-row items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-8 h-8 text-blue-500"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"
+              />
+            </svg>
+            <div>
+              <h3 className="text-stone-800 font-bold text-lg">Location</h3>
+              <p className="text-zinc-500">Buenos Aires, Argentina</p>
+            </div>
+          </div>
+          <div className="flex flex-row items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-8 h-8 text-blue-500"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+              />
+            </svg>
+
+            <div>
+              <h3 className="text-stone-800 font-bold text-lg">Mail</h3>
+              <p className="text-zinc-500">Lrangarita7@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
