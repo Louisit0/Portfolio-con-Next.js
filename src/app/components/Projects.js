@@ -3,7 +3,7 @@ import PROJECTS_DATA from "@/app/utilities/ProjectsData";
 
 const Projects = () => {
   return (
-    <section className="rounded-3xl">
+    <section className="rounded-3xl max-w-screen-lg mx-auto py-40">
       <p className="text-blue-500 font-bold uppercase">Projects</p>
       <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
         Each project is a unique piece of development 🧩
@@ -12,7 +12,9 @@ const Projects = () => {
         <div
           key={project.id}
           className={`p-6 border shadow-sm rounded-3xl bg-white mb-14 ${
-            project.id % 2 !== 0 ? "flex flex-row" : "flex flex-row-reverse"
+            project.id % 2 !== 0
+              ? "flex flex-col md:flex-row"
+              : "flex flex-row-reverse"
           } `}
         >
           <Image
@@ -24,23 +26,21 @@ const Projects = () => {
           <div className="flex flex-col justify-center items-center text-center">
             <div className="w-3/4 mx-auto">
               <h3 className="font-bold text-xl">
-                Turisme{" "}
-                <span className="text-zinc-500 text-base">
-                  (febrero 2023) ✈️
-                </span>
+                {project.title} {""}
+                <span className="text-zinc-500 text-sm">{project.date}</span>
               </h3>
               <p className="my-4 text-zinc-500 font-medium text-justify">
-                Una web donde puedes comprar paquetes turisticos en distintos
-                paises del mundo, contiene carrito de compras y formulario de
-                contacto.
+                {project.description}
               </p>
-              <ul className="flex flex-row gap-2 text-sm justify-center mt-4">
-                <li className="px-3 py-1 bg-zinc-800 text-white rounded-full">
-                  JavaScript
-                </li>
-                <li className="px-3 py-1 bg-zinc-800 text-white rounded-full">
-                  Bootstrap
-                </li>
+              <ul className="flex flex-wrap gap-2 text-xs justify-center">
+                {project.tech.map((tech) => (
+                  <li
+                    key={tech}
+                    className="px-3 py-1 bg-zinc-700 text-white rounded-full"
+                  >
+                    {tech}
+                  </li>
+                ))}
               </ul>
               <div className="flex flex-row justify-around mt-12">
                 <a
