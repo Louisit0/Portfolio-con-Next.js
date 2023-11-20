@@ -3,18 +3,17 @@ import { avatar } from "../assets/Images";
 
 const HomePage = () => {
   return (
-    <div className="h-screen flex flex-col justify-center">
-      <div className="flex flex-row justify-between items-start gap-4">
-        <div className="w-1/2 my-auto">
-          <h1 className="text-6xl font-bold text-stone-800">
+    <div className="h-screen flex flex-col px-4 md:px-0 md:justify-center md:max-w-screen-lg md:mx-auto">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-start gap-4">
+        <div className="md:w-1/2 my-auto">
+          <h1 className="text-4xl text-center md:text-start md:text-6xl font-bold text-stone-800">
             Front-End React Developer 💻
           </h1>
-
-          <p className="text-stone-600 leading-7 text-lg my-8">
+          <p className="text-center md:text-start text-stone-600 leading-7 text-lg my-5 md:my-8">
             Hi, I'm Luis Ramirez. A passionate Front-end React Developer based
             in Buenos Aires, Argentina. 📍
           </p>
-          <div className="flex flex-row items-center gap-4">
+          <div className="flex flex-row items-center justify-center md:justify-start gap-4">
             <a className="block hover:text-slate-200" target="_blank">
               <span className="sr-only">Github</span>
               <svg
@@ -43,7 +42,7 @@ const HomePage = () => {
         </div>
         <Image
           src={avatar}
-          className="w-80 h-80 object-cover rounded-full"
+          className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full mx-auto md:mx-0 mt-8 md:mt-0"
           alt="avatar"
         ></Image>
       </div>
