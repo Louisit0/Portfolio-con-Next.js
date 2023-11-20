@@ -6,7 +6,7 @@ const HomePage = () => {
     <div className="h-screen flex flex-col px-4 md:px-0 md:justify-center md:max-w-screen-lg md:mx-auto">
       <div className="flex flex-col-reverse md:flex-row justify-between items-start gap-4">
         <div className="md:w-1/2 my-auto">
-          <h1 className="text-4xl text-center md:text-start md:text-6xl font-bold text-stone-800">
+          <h1 className="text-4xl text-center md:text-start md:text-6xl font-extrabold text-stone-800">
             Front-End React Developer 💻
           </h1>
           <p className="text-center md:text-start text-stone-600 leading-7 text-lg my-5 md:my-8">
@@ -46,11 +46,11 @@ const HomePage = () => {
           alt="avatar"
         ></Image>
       </div>
-      <div className="flex flex-wrap items-center mt-28">
-        <p className="font-bold">
+      <div className="flex flex-col md:flex-row items-center mt-10 md:mt-28">
+        <p className="font-bold mb-10 md:mb-0">
           Tech Stack <span className="text-stone-800 ml-4 mr-16">|</span>
         </p>
-        <ul className="flex flex-row gap-8">
+        <ul className="grid grid-cols-2 md:flex md:flex-row gap-8">
           <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
               <img

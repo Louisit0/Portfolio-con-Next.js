@@ -3,7 +3,7 @@ import { setup } from "../assets/Images";
 
 const About = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-evenly h-full gap-20 py-40 max-w-screen-lg mx-auto">
+    <section className="flex flex-col md:flex-row justify-evenly h-full gap-10 md:gap-20 py-40 max-w-screen-lg mx-auto px-4 md:px-0">
       <Image
         className="flex flex-col justify-center object-cover rounded-2xl"
         width={410}

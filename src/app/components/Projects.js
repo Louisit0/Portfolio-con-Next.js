@@ -3,7 +3,7 @@ import PROJECTS_DATA from "@/app/utilities/ProjectsData";
 
 const Projects = () => {
   return (
-    <section className="rounded-3xl max-w-screen-lg mx-auto py-40">
+    <section className="rounded-3xl max-w-screen-lg mx-auto md:py-40 px-4 md:px-0">
       <p className="text-blue-500 font-bold uppercase">Projects</p>
       <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
         Each project is a unique piece of development 🧩
@@ -14,7 +14,7 @@ const Projects = () => {
           className={`p-6 border shadow-sm rounded-3xl bg-white mb-14 ${
             project.id % 2 !== 0
               ? "flex flex-col md:flex-row"
-              : "flex flex-row-reverse"
+              : "md:flex md:flex-row-reverse"
           } `}
         >
           <Image
@@ -24,12 +24,12 @@ const Projects = () => {
             style={{ width: 530, height: 360 }}
           ></Image>
           <div className="flex flex-col justify-center items-center text-center">
-            <div className="w-3/4 mx-auto">
+            <div className="md:w-3/4 mx-auto mt-4 md:mt-0">
               <h3 className="font-bold text-xl">
                 {project.title} {""}
                 <span className="text-zinc-500 text-sm">{project.date}</span>
               </h3>
-              <p className="my-4 text-zinc-500 font-medium text-justify">
+              <p className="my-4 text-zinc-500 font-medium">
                 {project.description}
               </p>
               <ul className="flex flex-wrap gap-2 text-xs justify-center">
