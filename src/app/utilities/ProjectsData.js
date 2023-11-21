@@ -25,7 +25,8 @@ const PROJECTS_DATA = [
     title: "Pcgear",
     img: pcgear,
     alt: "pcgear",
-    description: "Ecommerce de venta de componentes de pc.",
+    description:
+      "Ecommerce de venta de componentes de pc, con carrito de compras y diseño responsive.",
     tech: ["React", "TailwindCSS"],
     date: "(Julio 2022) 🖱️",
   },
@@ -34,7 +35,8 @@ const PROJECTS_DATA = [
     title: "Pcgear",
     img: pcgear2,
     alt: "pcgear2",
-    description: "Ecommerce de venta de componentes de pc.",
+    description:
+      "Ecommerce de venta de componentes de pc, con carrito de compras y diseño responsive.",
     tech: ["React", "TailwindCSS"],
     date: "(Julio 2022) 🖱️",
   },
