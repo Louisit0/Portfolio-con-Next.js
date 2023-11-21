@@ -1,11 +1,14 @@
 const Contact = () => {
   return (
-    <section className="flex flex-col py-28 max-w-screen-lg mx-auto px-4 md:px-0">
+    <section
+      id="contact"
+      className="flex flex-col py-28 max-w-screen-lg mx-auto px-4 lg:px-0"
+    >
       <p className="text-blue-500 font-bold uppercase">Contact</p>
       <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
         Don't be shy! Hit me up! 👇
       </h3>
-      <div className="flex flex-col md:flex-row gap-10 md:gap-20">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div className="flex flex-row items-center gap-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
