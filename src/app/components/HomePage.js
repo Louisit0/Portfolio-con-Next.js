@@ -3,19 +3,26 @@ import { avatar } from "../assets/Images";
 
 const HomePage = () => {
   return (
-    <div className="h-screen flex flex-col px-4 md:px-0 md:justify-center md:max-w-screen-lg md:mx-auto">
-      <div className="flex flex-col-reverse md:flex-row justify-between items-start gap-4">
-        <div className="md:w-1/2 my-auto">
-          <h1 className="text-4xl text-center md:text-start md:text-6xl font-extrabold text-stone-800">
+    <div
+      id="home"
+      className="h-screen flex flex-col px-4 lg:px-0 lg:justify-center lg:max-w-screen-lg lg:mx-auto pt-11 lg:pt-11"
+    >
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-4">
+        <div className="md:w-3/4 lg:w-1/2 my-auto md:mx-auto lg:mx-0">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl text-center lg:text-start  font-extrabold text-stone-800">
             Front-End React Developer 💻
           </h1>
-          <p className="text-center md:text-start text-stone-600 leading-7 text-lg my-5 md:my-8">
+          <p className="text-center lg:text-start text-stone-600 leading-7 text-lg my-5 lg:my-8">
             Hi, I'm Luis Ramirez. A passionate Front-end React Developer based
             in Buenos Aires, Argentina. 📍
           </p>
-          <div className="flex flex-row items-center justify-center md:justify-start gap-4">
-            <a className="block hover:text-slate-200" target="_blank">
-              <span className="sr-only">Github</span>
+          <div className="flex flex-row items-center justify-center lg:justify-start gap-4">
+            <a
+              className="block hover:text-blue-500 cursor-pointer"
+              href="linkedin.com/in/iluigiw/"
+              target="_blank"
+            >
+              <span className="sr-only">Linkedin</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -26,7 +33,11 @@ const HomePage = () => {
                 <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
               </svg>
             </a>
-            <a className="block hover:text-slate-200" target="_blank">
+            <a
+              className="block hover:text-blue-500 cursor-pointer"
+              href="https://github.com/Louisit0"
+              target="_blank"
+            >
               <span className="sr-only">Github</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,15 +53,15 @@ const HomePage = () => {
         </div>
         <Image
           src={avatar}
-          className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full mx-auto md:mx-0 mt-8 md:mt-0"
+          className="w-60 h-60 lg:w-80 lg:h-80 object-cover rounded-full mx-auto lg:mx-0 mt-8 lg:mt-0 p-1 ring-2 ring-stone-400"
           alt="avatar"
         ></Image>
       </div>
-      <div className="flex flex-col md:flex-row items-center mt-10 md:mt-28">
-        <p className="font-bold mb-10 md:mb-0">
+      <div className="flex flex-col lg:flex-row items-center mt-10 lg:mt-28">
+        <p className="font-bold mb-10 lg:mb-0">
           Tech Stack <span className="text-stone-800 ml-4 mr-16">|</span>
         </p>
-        <ul className="grid grid-cols-2 md:flex md:flex-row gap-8">
+        <ul className="grid grid-cols-2 lg:flex lg:flex-row gap-8">
           <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
               <img
