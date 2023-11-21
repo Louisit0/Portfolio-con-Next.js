@@ -1,45 +1,38 @@
 "use client";
-import { useState } from "react";
 
 const Nav = ({ tabs, changeTabs }) => {
   return (
-    <nav className="flex flex-row justify-between py-10 text-slate-200">
-      <h1 className="text-3xl font-bold">Luis</h1>
-      <ul className="flex border border-white rounded-3xl px-4 py-2">
+    <nav className="flex flex-row justify-center fixed py-4 lg:py-10 w-full">
+      <ul className="flex border rounded-3xl px-4 py-2 backdrop-filter backdrop-blur-md bg-opacity-60 bg-white text-sm md:text-base">
         <li
-          className={`rounded-3xl px-4 cursor-pointer ${
-            tabs === "home" ? "bg-zinc-800" : "hover:text-zinc-400"
+          className={`rounded-3xl px-3 md:px-4 cursor-pointer ${
+            tabs === "home" ? "bg-zinc-800" : "hover:text-blue-500"
           }`}
-          onClick={() => changeTabs("home")}
         >
-          <a>All</a>
+          <a href="#home">Home</a>
         </li>
         <li
-          className={`rounded-3xl px-4 cursor-pointer ${
-            tabs === "about" ? "bg-zinc-800" : "hover:text-zinc-400"
+          className={`rounded-3xl px-3 md:px-4 cursor-pointer ${
+            tabs === "about" ? "bg-zinc-800" : "hover:text-blue-500"
           }`}
-          onClick={() => changeTabs("about")}
         >
-          <a>About</a>
+          <a href="#about">About</a>
         </li>
         <li
-          className={`rounded-3xl px-4 cursor-pointer ${
-            tabs === "projects" ? "bg-zinc-800" : "hover:text-zinc-400"
+          className={`rounded-3xl px-3 md:px-4 cursor-pointer ${
+            tabs === "projects" ? "bg-zinc-800" : "hover:text-blue-500"
           }`}
-          onClick={() => changeTabs("projects")}
         >
-          <a>Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li
-          className={`rounded-3xl px-4 cursor-pointer ${
-            tabs === "contact" ? "bg-zinc-800" : "hover:text-zinc-400"
+          className={`rounded-3xl px-3 md:px-4 cursor-pointer ${
+            tabs === "contact" ? "bg-zinc-800" : "hover:text-blue-500"
           }`}
-          onClick={() => changeTabs("contact")}
         >
-          <a>Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
-      <p>Resumé</p>
     </nav>
   );
 };
