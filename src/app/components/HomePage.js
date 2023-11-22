@@ -1,5 +1,11 @@
 import Image from "next/image";
-import { avatar } from "../assets/Images";
+import {
+  avatar,
+  htmlcss,
+  jsts,
+  reactnext,
+  tailwindnet,
+} from "../assets/Images";
 
 const HomePage = () => {
   return (
@@ -64,25 +70,42 @@ const HomePage = () => {
         <ul className="grid grid-cols-2 lg:flex lg:flex-row gap-8">
           <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
-              <img
+              <Image
                 className="ease-in-out duration-300"
-                src="https://skillicons.dev/icons?i=html,css"
+                alt="htmlcss"
+                src={htmlcss}
+                width={100}
               />
             </a>
           </li>
           <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
-              <img src="https://skillicons.dev/icons?i=javascript,typescript" />
+              <Image
+                className="ease-in-out duration-300"
+                alt="jsts"
+                src={jsts}
+                width={100}
+              />
             </a>
           </li>
           <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
-              <img src="https://skillicons.dev/icons?i=react,next" />
+              <Image
+                className="ease-in-out duration-300"
+                alt="reactnext"
+                src={reactnext}
+                width={100}
+              />
             </a>
           </li>
           <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
             <a>
-              <img src="https://skillicons.dev/icons?i=tailwind,net" />
+              <Image
+                className="ease-in-out duration-300"
+                alt="tailwindnet"
+                src={tailwindnet}
+                width={100}
+              />
             </a>
           </li>
         </ul>

@@ -7,6 +7,10 @@ import mendoza from "../assets/mendoza.jpg";
 import setup from "../assets/setup.jpg";
 import github from "../assets/github.gif";
 import proyectos from "../assets/proyectos.gif";
+import htmlcss from "../assets/htmlcss.svg";
+import jsts from "../assets/jsts.svg";
+import reactnext from "../assets/reactnext.svg";
+import tailwindnet from "../assets/tailwindnet.svg";
 
 export {
   avatar,
@@ -18,4 +22,8 @@ export {
   setup,
   github,
   proyectos,
+  htmlcss,
+  jsts,
+  reactnext,
+  tailwindnet,
 };
