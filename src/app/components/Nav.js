@@ -2,7 +2,7 @@
 
 const Nav = ({ tabs, changeTabs }) => {
   return (
-    <nav className="flex flex-row justify-center fixed py-4 lg:py-10 w-full">
+    <nav className="flex flex-row justify-center fixed py-4 md:py-10 w-full">
       <ul className="flex border rounded-3xl px-4 py-2 backdrop-filter backdrop-blur-md bg-opacity-60 bg-white text-sm md:text-base">
         <li
           className={`rounded-3xl px-3 md:px-4 cursor-pointer ${

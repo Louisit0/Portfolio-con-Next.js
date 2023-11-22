@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="rounded-3xl max-w-screen-lg mx-auto lg:py-40 px-4 lg:px-0"
+      className="rounded-3xl max-w-screen-lg mx-auto lg:py-40 px-4 md:px-20 lg:px-0"
     >
       <p className="text-blue-500 font-bold uppercase">Projects</p>
       <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
@@ -21,31 +21,34 @@ const Projects = () => {
           } `}
         >
           <Image
-            className="bg-zinc-800 border-white shadow-sm rounded-3xl object-cover"
+            className="bg-zinc-800 shadow-sm rounded-3xl object-cover mx-auto"
             src={project.img}
             alt={project.alt}
             style={{ width: 530, height: 360 }}
           ></Image>
-          <div className="flex flex-col justify-center items-center text-center">
-            <div className="lg:w-3/4 mx-auto mt-4 lg:mt-0">
-              <h3 className="font-bold text-xl">
+          <div className="flex flex-col justify-center items-center md:p-4 lg:p-0 mx-auto lg:text-center">
+            {/* lg:w-3/4 */}
+            <div className="lg:w-4/5 mx-auto mt-4 lg:mt-0 lg:text-start">
+              <h3 className="font-bold text-2xl">
                 {project.title} {""}
-                <span className="text-zinc-500 text-sm">{project.date}</span>
               </h3>
-              <p className="my-4 text-zinc-500 font-medium">
+              <span className="text-blue-500 font-medium text-lg">
+                {project.date}
+              </span>
+              <p className="my-4 text-zinc-500 font-medium md:w-3/4 lg:w-full lg:mx-0">
                 {project.description}
               </p>
-              <ul className="flex flex-wrap gap-2 text-xs justify-center">
+              <ul className="flex flex-wrap gap-2 text-sm lg:justify-start">
                 {project.tech.map((tech) => (
                   <li
                     key={tech}
-                    className="px-3 py-1 bg-zinc-700 text-white rounded-full"
+                    className="px-3 py-1 border border-zinc-300 font-medium text-black rounded-full"
                   >
                     {tech}
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-row justify-around mt-12">
+              <div className="flex flex-row lg:justify-start gap-8 mt-12 text-lg">
                 <a
                   className="flex flex-row font-medium gap-2 items-center hover:text-blue-500 cursor-pointer"
                   target="_blank"
