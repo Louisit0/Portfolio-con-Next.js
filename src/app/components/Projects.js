@@ -5,10 +5,10 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="rounded-3xl max-w-screen-lg mx-auto lg:py-40 px-4 md:px-20 lg:px-0"
+      className="rounded-3xl max-w-screen-lg mx-auto px-4 md:px-20 lg:px-0"
     >
       <p className="text-blue-500 font-bold uppercase">Projects</p>
-      <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
+      <h3 className="text-2xl mt-2 mb-8 font-bold text-stone-800">
         Each project is a unique piece of development 🧩
       </h3>
       {PROJECTS_DATA.map((project) => (
