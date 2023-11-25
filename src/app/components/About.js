@@ -2,7 +2,7 @@ import Image from "next/image";
 import { setup, ssn } from "../assets/Images";
 const About = () => {
   return (
-    <section className="flex flex-col max-w-screen-lg mx-auto px-4 lg:px-0 pt-60 pb-40 md:py-40 ">
+    <section className="flex flex-col max-w-screen-lg mx-auto px-4 lg:px-0 pb-40">
       <section
         id="about"
         className="flex flex-col lg:flex-row justify-evenly h-full gap-10 lg:gap-20 pt-60 pb-40 md:py-40 max-w-screen-lg mx-auto px-4 lg:px-0"
@@ -37,90 +37,90 @@ const About = () => {
         <h3 className="text-blue-500 font-bold uppercase md:text-center lg:text-start mb-4">
           Work experience
         </h3>
-        <div className="grid grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12">
           <div className="flex flex-row gap-4">
-            <div className="border h-1/2 p-3 rounded-md">
-              <Image
-                className="object-cover"
-                width={100}
-                height={100}
-                src={ssn}
-                alt="ssn"
-              ></Image>
-            </div>
+            <Image
+              className="object-cover w-20 h-20 p-3 border rounded-md"
+              src={ssn}
+              alt="ssn"
+            ></Image>
             <div>
-              <h4>SSN</h4>
-              <p>Frontend developer</p>
-              <p>
-                April 20, 2022 - <span className="text-green-500">PRESENT</span>
+              <h4 className="font-bold text-xl">
+                Superintendencia de seguros de la nación
+              </h4>
+              <p className="text-blue-500 font-medium text-lg">
+                Frontend developer
               </p>
-              <p>
+              <p className="text-zinc-500 my-2 text-base">
+                April 20, 2022 - <span className="text-green-600">PRESENT</span>
+              </p>
+              <p className="font-medium text-base">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>
             </div>
           </div>
           <div className="flex flex-row gap-4">
-            <div className="border h-1/2 p-3 rounded-md">
-              <Image
-                className="flex flex-col justify-center object-cover h-full w-full md:mx-auto lg:mx-0"
-                width={80}
-                height={100}
-                src={ssn}
-                alt="ssn"
-              ></Image>
-            </div>
+            <Image
+              className="object-cover w-20 h-20 p-3 border rounded-md"
+              src={ssn}
+              alt="ssn"
+            ></Image>
             <div>
-              <h4>SSN</h4>
-              <p>Frontend developer</p>
-              <p>
-                April 20, 2022 - <span className="text-green-500">PRESENT</span>
+              <h4 className="font-bold text-xl">
+                Superintendencia de seguros de la nación
+              </h4>
+              <p className="text-blue-500 font-medium text-lg">
+                Frontend developer
               </p>
-              <p>
+              <p className="text-zinc-500 my-2 text-base">
+                April 20, 2022 - <span className="text-green-600">PRESENT</span>
+              </p>
+              <p className="font-medium text-base">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>
             </div>
           </div>
           <div className="flex flex-row gap-4">
-            <div className="border h-1/2 p-3 rounded-md">
-              <Image
-                className="flex flex-col justify-center object-cover h-full w-full md:mx-auto lg:mx-0"
-                width={80}
-                height={100}
-                src={ssn}
-                alt="ssn"
-              ></Image>
-            </div>
+            <Image
+              className="object-cover w-20 h-20 p-3 border rounded-md"
+              src={ssn}
+              alt="ssn"
+            ></Image>
             <div>
-              <h4>SSN</h4>
-              <p>Frontend developer</p>
-              <p>
-                April 20, 2022 - <span className="text-green-500">PRESENT</span>
+              <h4 className="font-bold text-xl">
+                Superintendencia de seguros de la nación
+              </h4>
+              <p className="text-blue-500 font-medium text-lg">
+                Frontend developer
               </p>
-              <p>
+              <p className="text-zinc-500 my-2 text-base">
+                April 20, 2022 - <span className="text-green-600">PRESENT</span>
+              </p>
+              <p className="font-medium text-base">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>
             </div>
           </div>
           <div className="flex flex-row gap-4">
-            <div className="border h-1/2 p-3 rounded-md">
-              <Image
-                className="flex flex-col justify-center object-cover h-full w-full md:mx-auto lg:mx-0"
-                width={80}
-                height={100}
-                src={ssn}
-                alt="ssn"
-              ></Image>
-            </div>
+            <Image
+              className="object-cover w-20 h-20 p-3 border rounded-md"
+              src={ssn}
+              alt="ssn"
+            ></Image>
             <div>
-              <h4>SSN</h4>
-              <p>Frontend developer</p>
-              <p>
-                April 20, 2022 - <span className="text-green-500">PRESENT</span>
+              <h4 className="font-bold text-xl">
+                Superintendencia de seguros de la nación
+              </h4>
+              <p className="text-blue-500 font-medium text-lg">
+                Frontend developer
               </p>
-              <p>
+              <p className="text-zinc-500 my-2 text-base">
+                April 20, 2022 - <span className="text-green-600">PRESENT</span>
+              </p>
+              <p className="font-medium text-base">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>

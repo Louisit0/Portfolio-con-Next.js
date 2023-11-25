@@ -12,6 +12,7 @@ import jsts from "../assets/jsts.svg";
 import reactnext from "../assets/reactnext.svg";
 import tailwindnet from "../assets/tailwindnet.svg";
 import ssn from "../assets/ssn.jpg";
+import tig from "../assets/tig.jpeg";
 
 export {
   avatar,
@@ -28,4 +29,5 @@ export {
   reactnext,
   tailwindnet,
   ssn,
+  tig,
 };
