@@ -1,4 +1,4 @@
-import { avatar, pokedex, turisme, pcgear, pcgear2 } from "../assets/Images";
+import { avatar, pokedex, turisme, pcgear, tig } from "../assets/Images";
 const PROJECTS_DATA = [
   {
     id: 1,
@@ -32,13 +32,13 @@ const PROJECTS_DATA = [
   },
   {
     id: 4,
-    title: "Pcgear 🖥️",
-    img: pcgear2,
-    alt: "pcgear2",
+    title: "Tablero de control 📈",
+    img: tig,
+    alt: "tig",
     description:
-      "Ecommerce de venta de componentes de pc, con carrito de compras y diseño responsive.",
-    tech: ["React", "TailwindCSS"],
-    date: "(Julio 2022)",
+      "Dashboard donde se visualizan datos financieros y graficos de ganacias o perdidas.",
+    tech: ["React", "TailwindCSS", "Express.js", "Google Api", "Tremor.so"],
+    date: "(Julio 2023)",
   },
 ];
 

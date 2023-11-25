@@ -21,7 +21,7 @@ const Projects = () => {
           } `}
         >
           <Image
-            className="bg-zinc-800 shadow-sm rounded-3xl object-cover mx-auto"
+            className="bg-zinc-800 shadow-sm rounded-3xl object-cover mx-auto border"
             src={project.img}
             alt={project.alt}
             style={{ width: 530, height: 360 }}
