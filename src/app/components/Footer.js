@@ -5,16 +5,7 @@ const Footer = () => {
     <footer className="bg-stone-950 px-4 lg:px-0">
       <div className="max-w-screen-lg mx-auto py-12 flex flex-row justify-between items-center">
         <p className="text-white w-3/5">
-          Loosely designed in{" "}
-          <a
-            href="https://www.figma.com/"
-            className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Figma{" "}
-          </a>
-          and coded in{" "}
+          Coded in{" "}
           <a
             href="https://code.visualstudio.com/"
             className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
@@ -22,8 +13,8 @@ const Footer = () => {
             rel="noreferrer"
           >
             Visual Studio Code
-          </a>{" "}
-          by yours truly. Built with{" "}
+          </a>
+          . Built with{" "}
           <a
             href="https://nextjs.org/"
             className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
