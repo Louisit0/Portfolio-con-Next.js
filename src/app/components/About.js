@@ -7,21 +7,11 @@ const About = () => {
         id="about"
         className="flex flex-col lg:flex-row justify-evenly h-full gap-10 lg:gap-20 pt-60 pb-40 md:py-40 max-w-screen-lg mx-auto px-4 lg:px-0"
       >
-        <Image
-          className="flex flex-col justify-center object-cover rounded-2xl md:mx-auto lg:mx-0"
-          width={410}
-          height={350}
-          src={setup}
-          alt="setup"
-        ></Image>
         <div className="md:w-3/5 md:mx-auto lg:w-full lg:mx-0">
-          <h3 className="text-blue-500 font-bold uppercase md:text-center lg:text-start">
+          <h3 className="text-4xl text-stone-800 font-bold tracking-tight md:text-center lg:text-start mb-8">
             About me
           </h3>
-          <h4 className="text-2xl font-bold my-2 text-stone-800">
-            A dedicated Front-end Developer based in Buenos Aires, Argentina 📍
-          </h4>
-          <p className="text-zinc-500">
+          <p className="text-zinc-600 text-base">
             As a Junior Front-End Developer, I possess an impressive arsenal of
             skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
             in designing and maintaining responsive websites that offer a smooth
@@ -31,10 +21,17 @@ const About = () => {
             player who thrives in collaborating with cross-functional teams to
             produce outstanding web applications.
           </p>
-        </div>{" "}
+        </div>
+        <Image
+          className="flex flex-col justify-center object-cover rounded-2xl md:mx-auto lg:mx-0"
+          width={410}
+          height={350}
+          src={setup}
+          alt="setup"
+        ></Image>
       </section>
       <div>
-        <h3 className="text-blue-500 font-bold uppercase md:text-center lg:text-start mb-4">
+        <h3 className="text-4xl text-stone-800 font-bold tracking-tight md:text-center lg:text-start mb-8">
           Work experience
         </h3>
         <div className="grid md:grid-cols-2 gap-12">
@@ -45,16 +42,14 @@ const About = () => {
               alt="ssn"
             ></Image>
             <div>
-              <h4 className="font-bold text-xl">
+              <h4 className="font-medium text-xl tracking-tight">
                 Superintendencia de seguros de la nación
               </h4>
-              <p className="text-blue-500 font-medium text-lg">
-                Frontend developer
+              <p className="text-base capitalize">Frontend developer</p>
+              <p className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
+                April 20, 2022 - <span className="text-green-600">Present</span>
               </p>
-              <p className="text-zinc-500 my-2 text-base">
-                April 20, 2022 - <span className="text-green-600">PRESENT</span>
-              </p>
-              <p className="font-medium text-base">
+              <p className="text-base tracking-tight my-4 text-zinc-600">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>
@@ -67,16 +62,14 @@ const About = () => {
               alt="ssn"
             ></Image>
             <div>
-              <h4 className="font-bold text-xl">
+              <h4 className="font-medium text-xl tracking-tight">
                 Superintendencia de seguros de la nación
               </h4>
-              <p className="text-blue-500 font-medium text-lg">
-                Frontend developer
+              <p className="text-base capitalize">Frontend developer</p>
+              <p className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
+                April 20, 2022 - August 30, 2022
               </p>
-              <p className="text-zinc-500 my-2 text-base">
-                April 20, 2022 - <span className="text-green-600">PRESENT</span>
-              </p>
-              <p className="font-medium text-base">
+              <p className="text-base tracking-tight my-4 text-zinc-600">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>
@@ -89,16 +82,14 @@ const About = () => {
               alt="ssn"
             ></Image>
             <div>
-              <h4 className="font-bold text-xl">
+              <h4 className="font-medium text-xl tracking-tight">
                 Superintendencia de seguros de la nación
               </h4>
-              <p className="text-blue-500 font-medium text-lg">
-                Frontend developer
+              <p className="text-base capitalize">Frontend developer</p>
+              <p className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
+                April 20, 2021 - August 30, 2022
               </p>
-              <p className="text-zinc-500 my-2 text-base">
-                April 20, 2022 - <span className="text-green-600">PRESENT</span>
-              </p>
-              <p className="font-medium text-base">
+              <p className="text-base tracking-tight my-4 text-zinc-600">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>
@@ -111,16 +102,14 @@ const About = () => {
               alt="ssn"
             ></Image>
             <div>
-              <h4 className="font-bold text-xl">
+              <h4 className="font-medium text-xl tracking-tight">
                 Superintendencia de seguros de la nación
               </h4>
-              <p className="text-blue-500 font-medium text-lg">
-                Frontend developer
+              <p className="text-base capitalize">Frontend developer</p>
+              <p className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
+                April 20, 2022 - August 30, 2022
               </p>
-              <p className="text-zinc-500 my-2 text-base">
-                April 20, 2022 - <span className="text-green-600">PRESENT</span>
-              </p>
-              <p className="font-medium text-base">
+              <p className="text-base tracking-tight my-4 text-zinc-600">
                 Encargado de desarrollar y diseñar el frontend en las
                 aplicaciones de la institución.
               </p>

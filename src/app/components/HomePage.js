@@ -59,11 +59,11 @@ const HomePage = () => {
         </div>
         <Image
           src={avatar}
-          className="w-60 h-60 lg:w-80 lg:h-80 object-cover rounded-full mx-auto lg:mx-0 mt-8 lg:mt-0 p-1 ring-2 ring-stone-400"
+          className="w-60 h-60 lg:w-80 lg:h-80 object-cover rounded-full mx-auto lg:mx-0 mt-8 lg:mt-0 p-1 ring-2 ring-zinc-600"
           alt="avatar"
         ></Image>
       </div>
-      <div className="flex flex-col lg:flex-row items-center mt-10 lg:mt-28">
+      <div className="flex flex-col lg:flex-row items-center mt-10">
         <p className="font-bold mb-10 lg:mb-0">
           Tech Stack <span className="text-stone-800 ml-4 mr-16">|</span>
         </p>

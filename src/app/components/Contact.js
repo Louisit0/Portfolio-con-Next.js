@@ -4,9 +4,8 @@ const Contact = () => {
       id="contact"
       className="flex flex-col py-28 max-w-screen-lg mx-auto px-4 lg:px-0"
     >
-      <p className="text-blue-500 font-bold uppercase">Contact</p>
-      <h3 className="text-2xl mt-2 mb-16 font-bold text-stone-800">
-        Get in touch ✨
+      <h3 className="text-4xl text-stone-800 font-bold tracking-tight md:text-center lg:text-start mb-8">
+        Contact
       </h3>
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div className="flex flex-row items-center gap-4">

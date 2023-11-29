@@ -7,10 +7,12 @@ const Projects = () => {
       id="projects"
       className="rounded-3xl max-w-screen-lg mx-auto px-4 md:px-20 lg:px-0"
     >
-      <p className="text-blue-500 font-bold uppercase">Projects</p>
-      <h3 className="text-2xl mt-2 mb-8 font-bold text-stone-800">
-        Each project is a unique piece of development 🧩
-      </h3>
+      <p className="text-4xl text-stone-800 font-bold tracking-tight md:text-center lg:text-start mb-8">
+        Projects
+      </p>
+      {/* <h3 className="text-2xl mt-2 mb-8 font-semibold text-stone-800 tracking-tight">
+        A blend of personal and professional work 🚀
+      </h3> */}
       {PROJECTS_DATA.map((project) => (
         <div
           key={project.id}
@@ -35,7 +37,7 @@ const Projects = () => {
               <span className="text-blue-500 font-medium text-lg">
                 {project.date}
               </span>
-              <p className="my-4 text-zinc-500 font-medium md:w-3/4 lg:w-full lg:mx-0">
+              <p className="my-4 text-zinc-600 md:w-3/4 lg:w-full lg:mx-0">
                 {project.description}
               </p>
               <ul className="flex flex-wrap gap-2 text-sm lg:justify-start">
