@@ -2,9 +2,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col py-28 max-w-screen-lg mx-auto px-4 lg:px-0"
+      className="flex flex-col py-28 max-w-screen-lg mx-auto px-8 md:px-20 lg:px-0"
     >
-      <h3 className="text-4xl text-stone-800 font-bold tracking-tight md:text-center lg:text-start mb-8">
+      <h3 className="text-4xl text-stone-800 font-bold tracking-tight mb-8">
         Contact
       </h3>
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">

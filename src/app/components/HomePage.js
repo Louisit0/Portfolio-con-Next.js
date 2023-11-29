@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <div
       id="home"
-      className="h-screen flex flex-col px-4 lg:px-0 lg:justify-center lg:max-w-screen-lg lg:mx-auto pt-11"
+      className="h-screen flex flex-col px-8 md:px-20 lg:px-0 lg:justify-center lg:max-w-screen-lg lg:mx-auto pt-11"
     >
       <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-4 md:mt-11 lg:mt-0">
         <div className="md:w-3/4 lg:w-1/2 my-auto md:mx-auto lg:mx-0">

@@ -5,9 +5,9 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="rounded-3xl max-w-screen-lg mx-auto px-4 md:px-20 lg:px-0"
+      className="rounded-3xl max-w-screen-lg mx-auto px-8 md:px-20 lg:px-0"
     >
-      <p className="text-4xl text-stone-800 font-bold tracking-tight md:text-center lg:text-start mb-8">
+      <p className="text-4xl text-stone-800 font-bold tracking-tight mb-8">
         Projects
       </p>
       {/* <h3 className="text-2xl mt-2 mb-8 font-semibold text-stone-800 tracking-tight">
@@ -16,21 +16,21 @@ const Projects = () => {
       {PROJECTS_DATA.map((project) => (
         <div
           key={project.id}
-          className={`p-6 border shadow-sm rounded-3xl bg-white mb-14 ${
+          className={`p-6 md:p-12 lg:p-8 border shadow-sm rounded-3xl bg-white mb-14 ${
             project.id % 2 !== 0
               ? "flex flex-col lg:flex-row"
               : "lg:flex lg:flex-row-reverse"
           } `}
         >
           <Image
-            className="bg-zinc-800 shadow-sm rounded-3xl object-cover mx-auto border"
+            className="bg-zinc-800 shadow-sm rounded-3xl object-cover mx-auto border w-full h-80 lg:h-80 lg:w-1/2"
             src={project.img}
             alt={project.alt}
-            style={{ width: 530, height: 360 }}
+            // style={{ width: 530, height: 360 }}
           ></Image>
-          <div className="flex flex-col justify-center items-center md:p-4 lg:p-0 mx-auto lg:text-center">
+          <div className="flex flex-col justify-center items-center mx-auto lg:text-center">
             {/* lg:w-3/4 */}
-            <div className="lg:w-4/5 mx-auto mt-4 lg:mt-0 lg:text-start">
+            <div className="lg:w-4/5 mx-auto mt-4 md:mt-10 lg:mt-0 lg:text-start">
               <h3 className="font-bold text-2xl">
                 {project.title} {""}
               </h3>
