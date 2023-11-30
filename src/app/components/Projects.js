@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="rounded-3xl max-w-screen-lg mx-auto px-8 md:px-20 lg:px-0"
+      className="rounded-3xl max-w-screen-lg mx-auto px-8 md:px-20 xl:px-0"
     >
       <p className="text-4xl text-stone-800 font-bold tracking-tight mb-8">
         Projects

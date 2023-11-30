@@ -2,12 +2,12 @@ import Image from "next/image";
 import { setup, ssn } from "../assets/Images";
 const About = () => {
   return (
-    <section className="flex flex-col max-w-screen-lg mx-auto px-8 md:px-20 lg:px-0 mt-40 md:mt-0">
+    <section className="flex flex-col max-w-screen-lg mx-auto px-8 md:px-20 xl:px-0 mt-40 md:mt-0">
       <section
         id="about"
         className="flex flex-col justify-evenly h-full gap-10 lg:gap-20 lg:my-30 max-w-screen-lg mx-auto lg:px-0"
       >
-        <ul className="lg:flex lg:flex-row lg:w-full lg:gap-12 lg:mx-0">
+        <ul className="xl:flex xl:flex-row lg:w-full lg:gap-12 lg:mx-0">
           <div className="flex flex-col">
             <h3 className="text-4xl text-stone-800 font-bold tracking-tight mb-8">
               About me
@@ -22,7 +22,7 @@ const About = () => {
               a team player who thrives in collaborating with cross-functional
               teams to produce outstanding web applications.
             </p>
-            <div className="my-8 lg:mb-0">
+            <div className="my-8 xl:mb-0">
               <h4 className="text-2xl text-stone-800 font-semibold tracking-tight mb-4">
                 Soft skills
               </h4>
@@ -54,8 +54,8 @@ const About = () => {
         <h3 className="text-4xl text-stone-800 font-bold tracking-tight mb-8">
           Work experience
         </h3>
-        <div className="relative grid gap-12 w-full md:w-3/4 lg:w-1/2">
-          <div className="flex flex-row gap-4">
+        <div className="relative grid gap-20 w-full md:w-3/4 lg:w-1/2">
+          <div className="flex flex-row gap-8">
             {/* https://flowbite.com/docs/components/timeline/#vertical-timeline */}
             <Image
               className="object-cover w-20 h-20 p-3 border rounded-md"
@@ -76,7 +76,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-8">
             <Image
               className="object-cover w-20 h-20 p-3 border rounded-md"
               src={ssn}
