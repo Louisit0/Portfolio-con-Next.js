@@ -16,14 +16,14 @@ const Projects = () => {
       {PROJECTS_DATA.map((project) => (
         <div
           key={project.id}
-          className={`p-6 md:p-12 lg:p-8 border shadow-sm rounded-3xl bg-white mb-14 ${
+          className={`p-6 md:p-12 lg:p-8 rounded-3xl border bg-white mb-14 ${
             project.id % 2 !== 0
               ? "flex flex-col lg:flex-row"
               : "lg:flex lg:flex-row-reverse"
           } `}
         >
           <Image
-            className="bg-zinc-800 shadow-sm rounded-3xl object-cover mx-auto border w-full h-80 lg:h-80 lg:w-1/2"
+            className="bg-zinc-800 rounded-3xl object-cover mx-auto w-full h-80 lg:h-80 lg:w-1/2"
             src={project.img}
             alt={project.alt}
             // style={{ width: 530, height: 360 }}
