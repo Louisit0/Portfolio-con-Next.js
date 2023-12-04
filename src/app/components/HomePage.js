@@ -5,6 +5,7 @@ import {
   jsts,
   reactnext,
   tailwindnet,
+  avatarwhite,
 } from "../assets/Images";
 
 const HomePage = () => {

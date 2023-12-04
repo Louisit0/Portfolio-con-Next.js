@@ -1,4 +1,5 @@
 import avatar from "../assets/avatarluigi.jpeg";
+import avatarwhite from "../assets/avatarwhite.jpg";
 import pokedex from "../assets/pokedex.png";
 import turisme from "../assets/turisme.png";
 import pcgear from "../assets/Pcgear.png";
@@ -16,6 +17,7 @@ import tig from "../assets/tig.jpeg";
 
 export {
   avatar,
+  avatarwhite,
   pokedex,
   turisme,
   pcgear,
