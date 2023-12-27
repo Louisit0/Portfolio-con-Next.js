@@ -13,7 +13,7 @@ const Projects = () => {
       {/* <h3 className="text-2xl mt-2 mb-8 font-semibold text-stone-800 tracking-tight">
         A blend of personal and professional work 🚀
       </h3> */}
-      {PROJECTS_DATA.map((project) => (
+      {PROJECTS_DATA.map((project, tags) => (
         <div
           key={project.id}
           className={`p-6 md:p-12 lg:p-8 rounded-3xl border bg-white mb-14 ${
@@ -41,12 +41,17 @@ const Projects = () => {
                 {project.description}
               </p>
               <ul className="flex flex-wrap gap-2 text-sm lg:justify-start">
-                {project.tech.map((tech) => (
+                {project.tags.map((tag) => (
                   <li
-                    key={tech}
-                    className="px-3 py-1 border border-zinc-300 font-medium text-black rounded-full"
+                    key={tag.name}
+                    className={`flex items-center py-1 px-2 font-medium gap-x-2 rounded-full ${tag.class}`}
                   >
-                    {tech}
+                    {tag.icon === null ? (
+                      <span>⭐</span>
+                    ) : (
+                      <span>{tag.icon}</span>
+                    )}
+                    <span>{tag.name}</span>
                   </li>
                 ))}
               </ul>
