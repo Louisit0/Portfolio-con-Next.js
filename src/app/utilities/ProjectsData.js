@@ -3,7 +3,7 @@ import { avatar, pokedex, turisme, pcgear, tig } from "../assets/Images";
 const TAGS = {
   JAVASCRIPT: {
     name: "Javascript",
-    class: "bg-yellow-50 text-yellow-900",
+    class: "bg-yellow-50 text-yellow-600",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const TAGS = {
   },
   REACT: {
     name: "React",
-    class: "bg-sky-50 text-sky-900",
+    class: "bg-sky-50 text-sky-600",
     icon: (
       <svg
         viewBox="0 0 256 228"
@@ -39,7 +39,7 @@ const TAGS = {
   },
   TAILWIND: {
     name: "Tailwind CSS",
-    class: "bg-cyan-50 text-cyan-900",
+    class: "bg-cyan-50 text-cyan-600",
     icon: (
       <svg
         viewBox="0 0 256 154"
@@ -63,7 +63,7 @@ const TAGS = {
   },
   BOOTSTRAP: {
     name: "Bootstrap",
-    class: "bg-purple-50 text-purple-900",
+    class: "bg-purple-50 text-purple-600",
     icon: (
       <svg
         viewBox="0 0 256 204"
@@ -81,7 +81,7 @@ const TAGS = {
   },
   POKEAPI: {
     name: "PokeAPI",
-    class: "bg-orange-50 text-orange-900",
+    class: "bg-orange-50 text-orange-600",
     icon: null,
   },
 };
@@ -89,7 +89,7 @@ const TAGS = {
 const PROJECTS_DATA = [
   {
     id: 1,
-    title: "Pokedex 🐕",
+    title: "Pokedex",
     img: pokedex,
     alt: "pokedex",
     description:
@@ -99,7 +99,7 @@ const PROJECTS_DATA = [
   },
   {
     id: 2,
-    title: "Turisme ✈️",
+    title: "Turisme",
     img: turisme,
     alt: "turisme",
     description:
@@ -109,7 +109,7 @@ const PROJECTS_DATA = [
   },
   {
     id: 3,
-    title: "Pcgear 💻",
+    title: "Pcgear",
     img: pcgear,
     alt: "pcgear",
     description:

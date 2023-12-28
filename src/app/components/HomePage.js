@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <div
       id="home"
-      className="md:h-screen flex flex-col px-8 md:px-20 xl:px-0 lg:justify-center lg:max-w-screen-lg lg:mx-auto pt-11"
+      className="lg:h-screen flex flex-col px-8 md:px-20 xl:px-0 lg:justify-center lg:max-w-screen-lg lg:mx-auto pt-11"
     >
       <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-4 md:mt-11 lg:mt-0">
         <div className="md:w-3/4 lg:w-1/2 my-auto md:mx-auto lg:mx-0">
@@ -25,11 +25,11 @@ const HomePage = () => {
             </span>
           </a>
           <h1 className="text-4xl mt-2 md:text-5xl lg:text-6xl text-center lg:text-start  font-extrabold text-stone-800">
-            Front-End React Developer 💻
+            Front-End React Developer
           </h1>
-          <p className="text-center lg:text-start text-stone-600 leading-7 text-lg my-5 lg:my-8">
-            Hi, I'm Luis Ramirez. A passionate Front-end React Developer based
-            in Buenos Aires, Argentina. 📍
+          <p className="text-center lg:text-start text-stone-600 leading-7 text-lg my-5 lg:my-8 text-balance max-w-[700px]">
+            Soy Luis Ramirez. +2 años de experiencia. Desarrollador web. Buenos
+            Aires, Argentina. Creo aplicaciones intuitivas y funcionales.
           </p>
           <div className="flex flex-row items-center justify-center lg:justify-start gap-4">
             <a

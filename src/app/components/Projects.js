@@ -40,11 +40,11 @@ const Projects = () => {
               <p className="my-4 text-zinc-600 md:w-3/4 lg:w-full lg:mx-0">
                 {project.description}
               </p>
-              <ul className="flex flex-wrap gap-2 text-sm lg:justify-start">
+              <ul className="flex flex-wrap gap-x-2 text-xs lg:justify-start">
                 {project.tags.map((tag) => (
                   <li
                     key={tag.name}
-                    className={`flex items-center py-1 px-2 font-medium gap-x-2 rounded-full ${tag.class}`}
+                    className={`flex items-center py-1 px-2 gap-x-2 rounded-full ${tag.class}`}
                   >
                     {tag.icon === null ? (
                       <span>⭐</span>
@@ -61,8 +61,6 @@ const Projects = () => {
                   target="_blank"
                   href="https://github.com/Louisit0/Tourism-web"
                 >
-                  <span className="sr-only">Github</span>
-                  Code
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
@@ -72,14 +70,14 @@ const Projects = () => {
                   >
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
                   </svg>
+                  <span className="sr-only">Github</span>
+                  Code
                 </a>
                 <a
                   className="flex flex-row font-medium gap-2 items-center hover:text-blue-500 cursor-pointer"
                   target="_blank"
                   href="https://louisit0.github.io/Tourism-web/"
                 >
-                  Live demo
-                  <span className="sr-only">Github</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -94,6 +92,8 @@ const Projects = () => {
                       d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
                     />
                   </svg>
+                  Live demo
+                  <span className="sr-only">Github</span>
                 </a>
               </div>
             </div>
