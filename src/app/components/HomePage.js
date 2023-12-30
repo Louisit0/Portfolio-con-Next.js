@@ -1,5 +1,11 @@
 import Image from "next/image";
 import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import {
   avatar,
   htmlcss,
   jsts,
@@ -12,9 +18,9 @@ const HomePage = () => {
   return (
     <div
       id="home"
-      className="lg:h-screen flex flex-col px-8 md:px-20 xl:px-0 lg:justify-center lg:max-w-screen-lg lg:mx-auto pt-11"
+      className="lg:h-screen flex flex-col px-4 gap-8 lg:gap-0 md:px-20 xl:px-0 lg:justify-center lg:max-w-screen-lg lg:mx-auto pt-11"
     >
-      <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-4 md:mt-11 lg:mt-0">
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-8 md:mt-11 lg:mt-0">
         <div className="md:w-3/4 lg:w-1/2 my-auto md:mx-auto lg:mx-0">
           <a
             href="/"
@@ -25,11 +31,17 @@ const HomePage = () => {
             </span>
           </a>
           <h1 className="text-4xl mt-2 md:text-5xl lg:text-6xl text-center lg:text-start  font-extrabold text-stone-800">
-            Front-End React Developer
+            Desarrollador Front-End React
           </h1>
           <p className="text-center lg:text-start text-stone-600 leading-7 text-lg my-5 lg:my-8 text-balance max-w-[700px]">
-            Soy Luis Ramirez. +2 años de experiencia. Desarrollador web. Buenos
-            Aires, Argentina. Creo aplicaciones intuitivas y funcionales.
+            Soy Luis Ramirez.{" "}
+            <span className="text-blue-500 font-medium">
+              +2 años de experiencia.
+            </span>{" "}
+            Desarrollador web. Buenos Aires, Argentina.{" "}
+            <span className="text-blue-500 font-medium">
+              Creo aplicaciones intuitivas y funcionales.
+            </span>
           </p>
           <div className="flex flex-row items-center justify-center lg:justify-start gap-4">
             <a
@@ -68,7 +80,7 @@ const HomePage = () => {
         </div>
         <Image
           src={avatar}
-          className="w-60 h-60 lg:w-80 lg:h-80 object-cover rounded-full mx-auto lg:mx-0 mt-8 lg:mt-0 p-1 ring-2 ring-zinc-600"
+          className="w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-full mx-auto lg:mx-0 mt-8 lg:mt-0 p-1 ring-2 ring-zinc-600"
           alt="avatar"
         ></Image>
       </div>
@@ -77,45 +89,53 @@ const HomePage = () => {
           Tech Stack <span className="text-stone-800 ml-4 mr-16">|</span>
         </p>
         <ul className="grid grid-cols-2 lg:flex lg:flex-row gap-8">
-          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
-            <a>
-              <Image
-                className="ease-in-out duration-300"
-                alt="htmlcss"
-                src={htmlcss}
-                width={100}
-              />
-            </a>
+          <li className="cursor-pointer">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Image alt="htmlcss" src={htmlcss} width={100} />
+                </TooltipTrigger>
+                <TooltipContent className="bg-zinc-800 text-white">
+                  <p>Html | Css</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
           </li>
-          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
-            <a>
-              <Image
-                className="ease-in-out duration-300"
-                alt="jsts"
-                src={jsts}
-                width={100}
-              />
-            </a>
+          <li className="cursor-pointer">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Image alt="jsts" src={jsts} width={100} />
+                </TooltipTrigger>
+                <TooltipContent className="bg-zinc-800 text-white">
+                  <p>Javascript | Typescript</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
           </li>
-          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
-            <a>
-              <Image
-                className="ease-in-out duration-300"
-                alt="reactnext"
-                src={reactnext}
-                width={100}
-              />
-            </a>
+          <li className="cursor-pointer">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Image alt="reactnext" src={reactnext} width={100} />
+                </TooltipTrigger>
+                <TooltipContent className="bg-zinc-800 text-white">
+                  <p>React.js | Next.js</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
           </li>
-          <li className="transition ease-in-out delay-150 duration-300 hover:scale-110 cursor-pointer">
-            <a>
-              <Image
-                className="ease-in-out duration-300"
-                alt="tailwindnet"
-                src={tailwindnet}
-                width={100}
-              />
-            </a>
+          <li className="cursor-pointer">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Image alt="tailwindnet" src={tailwindnet} width={100} />
+                </TooltipTrigger>
+                <TooltipContent className="bg-zinc-800 text-white">
+                  <p>Tailwind CSS | .Net</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
           </li>
         </ul>
       </div>
