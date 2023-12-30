@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   const [tabs, setTabs] = useState("home");
-  const [themeDark, setThemeDark] = useState(true);
+  const [themeDark, setThemeDark] = useState(false);
 
   const changeTabs = (tabName) => {
     setTabs(tabName);

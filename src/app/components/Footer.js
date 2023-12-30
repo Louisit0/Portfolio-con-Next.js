@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-stone-950 px-8 md:px-20 xl:px-0">
+    <footer className="bg-stone-950 px-4 md:px-20 xl:px-0">
       <div className="max-w-screen-lg mx-auto py-12 flex flex-row justify-between items-center">
         <p className="text-white w-3/5">
-          Coded in{" "}
+          Desarrollado en{" "}
           <a
             href="https://code.visualstudio.com/"
             className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
@@ -14,7 +14,7 @@ const Footer = () => {
           >
             Visual Studio Code
           </a>
-          . Built with{" "}
+          . Construido con{" "}
           <a
             href="https://nextjs.org/"
             className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
@@ -23,7 +23,7 @@ const Footer = () => {
           >
             Next.js
           </a>{" "}
-          and{" "}
+          y{" "}
           <a
             href="https://tailwindcss.com/"
             className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
@@ -32,7 +32,7 @@ const Footer = () => {
           >
             Tailwind CSS
           </a>
-          , deployed with{" "}
+          , deployado con{" "}
           <a
             href="https://vercel.com/"
             className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
@@ -41,16 +41,7 @@ const Footer = () => {
           >
             Vercel
           </a>
-          . All text is set in the{" "}
-          <a
-            href="https://rsms.me/inter/"
-            className="font-medium text-blue-400 hover:text-blue-300 focus-visible:text-teal-300"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Inter
-          </a>{" "}
-          typeface.
+          .
         </p>
         <div className="flex flex-row items-center justify-center lg:justify-start gap-4">
           <a

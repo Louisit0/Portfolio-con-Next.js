@@ -10,7 +10,7 @@ const Nav = ({ tabs, changeTabs }) => {
           }`}
         >
           <a className="px-3 md:px-4" href="#home">
-            Home
+            Inicio
           </a>
         </li>
         <li
@@ -19,7 +19,7 @@ const Nav = ({ tabs, changeTabs }) => {
           }`}
         >
           <a className="px-3 md:px-4" href="#about">
-            About
+            Sobre mí
           </a>
         </li>
         <li
@@ -28,7 +28,7 @@ const Nav = ({ tabs, changeTabs }) => {
           }`}
         >
           <a className="px-3 md:px-4" href="#projects">
-            Projects
+            Proyectos
           </a>
         </li>
         <li
@@ -37,7 +37,7 @@ const Nav = ({ tabs, changeTabs }) => {
           }`}
         >
           <a className="px-3 md:px-4" href="#contact">
-            Contact
+            Contacto
           </a>
         </li>
       </ul>
