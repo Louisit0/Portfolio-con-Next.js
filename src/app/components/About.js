@@ -2,7 +2,7 @@ import Image from "next/image";
 import { setup, ssn } from "../assets/Images";
 const About = () => {
   return (
-    <section className="flex flex-col max-w-screen-lg mx-auto px-4 md:px-20 xl:px-0 mt-40 lg:mt-0">
+    <section className="flex flex-col max-w-screen-lg mx-auto px-6 md:px-20 xl:px-0 mt-40 lg:mt-0">
       <section
         id="about"
         className="flex flex-col lg:w-3/5 justify-evenly h-full gap-10 lg:gap-20 lg:my-30 max-w-screen-lg  lg:px-0"
@@ -25,7 +25,7 @@ const About = () => {
                 />
               </svg>
 
-              <h3 className="text-4xl text-stone-800 font-bold tracking-tight">
+              <h3 className="text-2xl lg:text-4xl text-stone-800 font-bold tracking-tight">
                 Sobre mí
               </h3>
             </div>
@@ -40,16 +40,22 @@ const About = () => {
               teams to produce outstanding web applications.
             </p> */}
             <p className="text-zinc-600 text-base">
-              Soy un apasionado desarrollador frontend con 2 años de experiencia
+              Soy un apasionado desarrollador frontend con{" "}
+              <span className="text-blue-500 font-medium">
+                2 años de experiencia{" "}
+              </span>
               en el diseño, implementación y resolución de interfaces de usuario
-              tanto en páginas como en aplicaciones web. Mi enfoque principal es
-              crear experiencias de usuario intuitivas y atractivas utilizando
-              tecnologías como HTML, CSS, JavaScript, React y herramientas de
-              control de versiones como GitHub y GitLab. También cuento con
-              conocimientos en .NET y Razor.{" "}
+              tanto en páginas como en aplicaciones web.{" "}
+              <span className="text-blue-500 font-medium">
+                Mi enfoque principal es crear experiencias de usuario intuitivas
+                y atractivas.
+              </span>{" "}
+              Utilizando tecnologías como HTML, CSS, JavaScript, React y
+              herramientas de control de versiones como GitHub y GitLab. También
+              cuento con conocimientos en .NET y Razor.
             </p>
             <div className="my-8 xl:mb-0">
-              <h4 className="text-2xl text-stone-800 font-semibold tracking-tight mb-4">
+              <h4 className="text-xl text-stone-800 font-semibold tracking-tight mb-4">
                 Habilidades blandas
               </h4>
               <ul className="flex flex-wrap gap-2 text-sm lg:justify-start">
@@ -93,7 +99,7 @@ const About = () => {
             />
           </svg>
 
-          <h3 className="text-4xl text-stone-800 font-bold tracking-tight">
+          <h3 className="text-2xl lg:text-4xl text-stone-800 font-bold tracking-tight">
             Experiencia laboral
           </h3>
         </div>
@@ -103,7 +109,7 @@ const About = () => {
             <time className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
               Abril 2022 - <span className="text-green-600">Presente</span>
             </time>
-            <h4 className="font-medium text-xl tracking-tight mt-4">
+            <h4 className="font-medium text-lg lg:text-xl tracking-tight mt-4">
               Superintendencia de seguros de la nación
             </h4>
             <p className="text-base capitalize text-blue-500 font-semibold">
@@ -119,7 +125,7 @@ const About = () => {
             <time className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
               Febrero 2021 - Marzo 2022
             </time>
-            <h4 className="font-medium text-xl tracking-tight mt-4 ">
+            <h4 className="font-medium text-lg lg:text-xl tracking-tight mt-4 ">
               Freelance
             </h4>
             <p className="text-base capitalize text-blue-500 font-semibold">

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="rounded-3xl max-w-screen-lg mx-auto px-4 md:px-20 xl:px-0"
+      className="rounded-3xl max-w-screen-lg mx-auto px-6 md:px-20 xl:px-0"
     >
       <div className="flex flex-row  items-center mb-8 gap-3">
         <svg
@@ -23,7 +23,7 @@ const Projects = () => {
           />
         </svg>
 
-        <p className="text-4xl text-stone-800 font-bold tracking-tight ">
+        <p className="text-2xl lg:text-4xl text-stone-800 font-bold tracking-tight ">
           Proyectos
         </p>
       </div>
@@ -48,16 +48,16 @@ const Projects = () => {
           <div className="flex flex-col justify-center items-center mx-auto lg:text-center">
             {/* lg:w-3/4 */}
             <div className="lg:w-4/5 mx-auto mt-4 md:mt-10 lg:mt-0 lg:text-start">
-              <h3 className="font-bold text-2xl">
+              <h3 className="font-bold text-xl lg:text-2xl">
                 {project.title} {""}
               </h3>
               <span className="text-blue-500 font-medium text-lg">
                 {project.date}
               </span>
-              <p className="my-4 text-zinc-600 md:w-3/4 lg:w-full lg:mx-0">
+              <p className="my-4 text-zinc-600 md:w-3/4 lg:w-full lg:mx-0 text-base">
                 {project.description}
               </p>
-              <ul className="flex flex-wrap gap-x-2 text-xs lg:justify-start">
+              <ul className="flex flex-wrap gap-2 text-sm lg:justify-start">
                 {project.tags.map((tag) => (
                   <li
                     key={tag.name}
