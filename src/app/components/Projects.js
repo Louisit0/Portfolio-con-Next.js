@@ -5,11 +5,28 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="rounded-3xl max-w-screen-lg mx-auto px-8 md:px-20 xl:px-0"
+      className="rounded-3xl max-w-screen-lg mx-auto px-6 md:px-20 xl:px-0"
     >
-      <p className="text-4xl text-stone-800 font-bold tracking-tight mb-8">
-        Projects
-      </p>
+      <div className="flex flex-row  items-center mb-8 gap-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-7 h-7"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
+          />
+        </svg>
+
+        <p className="text-2xl lg:text-4xl text-stone-800 font-bold tracking-tight ">
+          Proyectos
+        </p>
+      </div>
       {/* <h3 className="text-2xl mt-2 mb-8 font-semibold text-stone-800 tracking-tight">
         A blend of personal and professional work 🚀
       </h3> */}
@@ -31,20 +48,20 @@ const Projects = () => {
           <div className="flex flex-col justify-center items-center mx-auto lg:text-center">
             {/* lg:w-3/4 */}
             <div className="lg:w-4/5 mx-auto mt-4 md:mt-10 lg:mt-0 lg:text-start">
-              <h3 className="font-bold text-2xl">
+              <h3 className="font-bold text-xl lg:text-2xl">
                 {project.title} {""}
               </h3>
               <span className="text-blue-500 font-medium text-lg">
                 {project.date}
               </span>
-              <p className="my-4 text-zinc-600 md:w-3/4 lg:w-full lg:mx-0">
+              <p className="my-4 text-zinc-600 md:w-3/4 lg:w-full lg:mx-0 text-base">
                 {project.description}
               </p>
-              <ul className="flex flex-wrap gap-x-2 text-xs lg:justify-start">
+              <ul className="flex flex-wrap gap-2 text-sm lg:justify-start">
                 {project.tags.map((tag) => (
                   <li
                     key={tag.name}
-                    className={`flex items-center py-1 px-2 gap-x-2 rounded-full ${tag.class}`}
+                    className={`flex items-center px-2.5 py-0.5 gap-x-2 rounded-full ${tag.class}`}
                   >
                     {tag.icon === null ? (
                       <span>⭐</span>
