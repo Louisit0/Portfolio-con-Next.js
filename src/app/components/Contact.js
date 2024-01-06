@@ -43,7 +43,7 @@ const Contact = () => {
             </svg>
           </div>
           <div>
-            <h3 className="text-stone-800 font-bold text-lg">Location</h3>
+            <h3 className="text-stone-800 font-bold text-lg">Ubicación</h3>
             <p className="text-zinc-500">Buenos Aires, Argentina</p>
           </div>
         </div>
