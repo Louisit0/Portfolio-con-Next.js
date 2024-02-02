@@ -116,8 +116,8 @@ const About = () => {
               Frontend developer
             </p>
             <p className="text-base tracking-tight  text-zinc-600 md:w-3/4 lg:w-1/2">
-              Encargado del UX/UI y el desarrollo frontend en las aplicaciones y
-              páginas web del organismo.
+              Encargado del diseño UX/UI y el desarrollo frontend en las
+              aplicaciones y páginas web del organismo.
             </p>
           </li>
           <li className="mb-10 ms-4">

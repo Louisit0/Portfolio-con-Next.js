@@ -23,10 +23,11 @@ const HomePage = () => {
       <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-8 md:mt-11 lg:mt-0">
         <div className="md:w-3/4 lg:w-1/2 my-auto md:mx-auto lg:mx-0">
           <a
-            href="/"
-            className="flex lg:justify-start justify-center items-center"
+            href="https://linkedin.com/in/iluigiw/"
+            target="_blank"
+            className="flex w-40 mx-auto lg:mx-0"
           >
-            <span className="bg-green-600 text-green-50 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+            <span className="bg-green-600 text-green-50 text-xs font-medium px-2.5 py-0.5 rounded">
               Disponible para trabajar
             </span>
           </a>
@@ -82,7 +83,7 @@ const HomePage = () => {
           <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mt-4">
             <a
               className="flex hover:text-blue-500 cursor-pointer flex-row gap-2 border rounded-3xl px-2.5 py-0.5 duration-300"
-              href="https://github.com/Louisit0"
+              href="mailto:lrangarita7@gmail.com"
               target="_blank"
             >
               <svg
