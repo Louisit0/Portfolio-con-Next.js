@@ -87,32 +87,20 @@ const TAGS = {
 };
 
 const PROJECTS_DATA = [
-  {
-    id: 1,
-    title: "Pokedex",
-    img: pokedex,
-    alt: "pokedex",
-    description:
-      "App que simula una pokedex, con la posibilidad de buscar pokemones por nombre o numero, y ver sus caracteristicas.",
-    tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.POKEAPI],
-    linkCode: "https://github.com/Louisit0/Pokedex",
-    linkDemo: "https://pokedex-gules-seven.vercel.app/",
-    date: "(Agosto 2022)",
-  },
+  // {
+  //   id: 1,
+  //   title: "Pokedex",
+  //   img: pokedex,
+  //   alt: "pokedex",
+  //   description:
+  //     "App que simula una pokedex, con la posibilidad de buscar pokemones por nombre o numero, y ver sus caracteristicas.",
+  //   tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.POKEAPI],
+  //   linkCode: "https://github.com/Louisit0/Pokedex",
+  //   linkDemo: "https://pokedex-gules-seven.vercel.app/",
+  //   date: "(Agosto 2022)",
+  // },
   {
     id: 2,
-    title: "Turisme",
-    img: turisme,
-    alt: "turisme",
-    description:
-      "Una página web de turismo, con carrito de compras y formulario de contacto.",
-    tags: [TAGS.JAVASCRIPT, TAGS.BOOTSTRAP],
-    linkCode: "https://github.com/Louisit0/Tourism-web",
-    linkDemo: "https://louisit0.github.io/Tourism-web/",
-    date: "(Julio 2022)",
-  },
-  {
-    id: 3,
     title: "Pcgear",
     img: pcgear,
     alt: "pcgear",
@@ -121,6 +109,18 @@ const PROJECTS_DATA = [
     tags: [TAGS.REACT, TAGS.TAILWIND],
     linkCode: "https://github.com/Louisit0/PCGear",
     linkDemo: "https://pc-gear.vercel.app/",
+    date: "(Julio 2022)",
+  },
+  {
+    id: 3,
+    title: "Turisme",
+    img: turisme,
+    alt: "turisme",
+    description:
+      "Una página web de turismo, con carrito de compras y formulario de contacto.",
+    tags: [TAGS.JAVASCRIPT, TAGS.BOOTSTRAP],
+    linkCode: "https://github.com/Louisit0/Tourism-web",
+    linkDemo: "https://louisit0.github.io/Tourism-web/",
     date: "(Julio 2022)",
   },
 ];

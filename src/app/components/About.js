@@ -105,7 +105,7 @@ const About = () => {
         </div>
         <ol className="relative border-s border-zinc-200">
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -start-1.5 border border-zinc-50"></div>
+            <div className="absolute w-3 h-3 bg-zinc-500 rounded-full mt-1.5 -start-1.5 border border-zinc-50"></div>
             <time className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
               Abril 2022 - <span className="text-green-600">Presente</span>
             </time>
@@ -116,17 +116,17 @@ const About = () => {
               Frontend developer
             </p>
             <p className="text-base tracking-tight  text-zinc-600 md:w-3/4 lg:w-1/2">
-              Encargado de desarrollar y diseñar el frontend en las aplicaciones
-              de la institución.
+              Encargado del UX/UI y el desarrollo frontend en las aplicaciones y
+              páginas web del organismo.
             </p>
           </li>
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -start-1.5 border border-zinc-50"></div>
+            <div className="absolute w-3 h-3 bg-zinc-500 rounded-full mt-1.5 -start-1.5 border border-zinc-50"></div>
             <time className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
-              Febrero 2021 - Marzo 2022
+              Febrero 2021 - <span className="text-green-600">Presente</span>
             </time>
             <h4 className="font-medium text-lg lg:text-xl tracking-tight mt-4 ">
-              Freelance
+              Freelance esporádico
             </h4>
             <p className="text-base capitalize text-blue-500 font-semibold">
               Frontend developer

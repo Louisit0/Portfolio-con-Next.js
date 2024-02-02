@@ -46,7 +46,7 @@ const HomePage = () => {
           <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
             <a
               className="flex hover:text-blue-500 cursor-pointer flex-row gap-2 border rounded-3xl px-2.5 py-0.5 duration-300"
-              href="linkedin.com/in/iluigiw/"
+              href="https://linkedin.com/in/iluigiw/"
               target="_blank"
             >
               <span className="sr-only">Linkedin</span>
@@ -103,8 +103,9 @@ const HomePage = () => {
             </a>
             <a
               className="flex hover:text-blue-500 cursor-pointer flex-row gap-2 border rounded-3xl px-2.5 py-0.5 duration-300"
-              href="https://github.com/Louisit0"
+              href="./CV_LUISRAMIREZ_FRONTEND.pdf"
               target="_blank"
+              download={true}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +153,7 @@ const HomePage = () => {
                   <Image alt="jsts" src={jsts} width={100} />
                 </TooltipTrigger>
                 <TooltipContent className="bg-zinc-800 text-white">
-                  <p>Javascript | Typescript</p>
+                  <p>Javascript | Aprendiendo: Typescript</p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
@@ -164,7 +165,7 @@ const HomePage = () => {
                   <Image alt="reactnext" src={reactnext} width={100} />
                 </TooltipTrigger>
                 <TooltipContent className="bg-zinc-800 text-white">
-                  <p>React.js | Next.js</p>
+                  <p>React.js | Aprendiendo: Next.js</p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>

@@ -33,7 +33,7 @@ const Projects = () => {
       {PROJECTS_DATA.map((project, tags) => (
         <div
           key={project.id}
-          className={`p-6 md:p-12 lg:p-8 rounded-3xl border bg-white mb-14 ${
+          className={`p-6 md:p-12 lg:p-8 rounded-3xl border bg-white mb-8 ${
             project.id % 2 !== 0
               ? "flex flex-col lg:flex-row"
               : "lg:flex lg:flex-row-reverse"
@@ -117,6 +117,9 @@ const Projects = () => {
           </div>
         </div>
       ))}
+      <p className=" text-blue-500">
+        Estaré subiendo proyectos que aún tengo en desarrollo ✨
+      </p>
     </section>
   );
 };
