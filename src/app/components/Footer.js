@@ -46,7 +46,7 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center lg:justify-start gap-4">
           <a
             className="block hover:text-blue-500 cursor-pointer text-white"
-            href="linkedin.com/in/iluigiw/"
+            href="https://linkedin.com/in/iluigiw/"
             target="_blank"
           >
             <span className="sr-only">Linkedin</span>
