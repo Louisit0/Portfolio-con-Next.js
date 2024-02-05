@@ -109,13 +109,13 @@ const About = () => {
             <time className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
               Abril 2022 - <span className="text-green-600">Presente</span>
             </time>
-            <h4 className="font-medium text-lg lg:text-xl tracking-tight mt-4">
+            <h4 className="font-semibold text-lg lg:text-xl tracking-tight mt-4">
               Superintendencia de seguros de la nación
             </h4>
-            <p className="text-base capitalize text-blue-500 font-semibold">
-              Frontend developer
+            <p className="text-lg capitalize text-blue-500 font-medium">
+              Desarrollador Frontend
             </p>
-            <p className="text-base tracking-tight  text-zinc-600 md:w-3/4 lg:w-1/2">
+            <p className="text-base text-zinc-600 md:w-3/4 lg:w-1/2">
               Encargado del diseño UX/UI y el desarrollo frontend en las
               aplicaciones y páginas web del organismo.
             </p>
@@ -125,13 +125,13 @@ const About = () => {
             <time className="text-zinc-500 mt-2 text-sm uppercase tracking-widest">
               Febrero 2021 - <span className="text-green-600">Presente</span>
             </time>
-            <h4 className="font-medium text-lg lg:text-xl tracking-tight mt-4 ">
+            <h4 className="font-semibold text-lg lg:text-xl tracking-tight mt-4 ">
               Freelance esporádico
             </h4>
-            <p className="text-base capitalize text-blue-500 font-semibold">
-              Frontend developer
+            <p className="text-lg capitalize text-blue-500 font-medium">
+              Desarrollador Frontend
             </p>
-            <p className="text-base tracking-tight  text-zinc-600 md:w-3/4 lg:w-1/2">
+            <p className="text-base text-zinc-600 md:w-3/4 lg:w-1/2">
               Creación de diseño y programación de páginas web.
             </p>
           </li>
